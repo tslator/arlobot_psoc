@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="arlobot_base\board1\Source Files\boardmain.c">
+<ExpandedNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\TopDesign</v>
+<v>arlobot_base\board1\board1.cydwr</v>
+<v>arlobot_base\board1\Header Files</v>
+<v>arlobot_base\board1\Header Files\control.h</v>
+<v>arlobot_base\board1\Header Files\cyapicallbacks.h</v>
+<v>arlobot_base\board1\Header Files\debug.h</v>
+<v>arlobot_base\board1\Header Files\encoder.h</v>
+<v>arlobot_base\board1\Header Files\hwconfig.h</v>
+<v>arlobot_base\board1\Header Files\i2c.h</v>
+<v>arlobot_base\board1\Header Files\infrared.h</v>
+<v>arlobot_base\board1\Header Files\motor.h</v>
+<v>arlobot_base\board1\Header Files\pid.h</v>
+<v>arlobot_base\board1\Header Files\time.h</v>
+<v>arlobot_base\board1\Header Files\ultrasonic.h</v>
+<v>arlobot_base\board1\Header Files\utils.h</v>
+<v>arlobot_base\board1\Source Files</v>
+<v>arlobot_base\board1\Source Files\boardmain.c</v>
+<v>arlobot_base\board1\Source Files\control.c</v>
+<v>arlobot_base\board1\Source Files\debug.c</v>
+<v>arlobot_base\board1\Source Files\encoder.c</v>
+<v>arlobot_base\board1\Source Files\i2c.c</v>
+<v>arlobot_base\board1\Source Files\infrared.c</v>
+<v>arlobot_base\board1\Source Files\main.c</v>
+<v>arlobot_base\board1\Source Files\motor.c</v>
+<v>arlobot_base\board1\Source Files\pid.c</v>
+<v>arlobot_base\board1\Source Files\time.c</v>
+<v>arlobot_base\board1\Source Files\ultrasonic.c</v>
+<v>arlobot_base\board1\Source Files\utils.c</v>
+<v>arlobot_base\board1\Generated_Source</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared_INT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_intClock</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_intClock\ADC_Infrared_intClock.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_intClock\ADC_Infrared_intClock.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_IRQ</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_IRQ\ADC_Infrared_IRQ.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_IRQ\ADC_Infrared_IRQ.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_dmac</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_dmac\CyDMA.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_dmac\CyDMA.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_lfclk</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_lfclk\CyLFClk.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_lfclk\CyLFClk.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Intr</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Intr\Encoder_Intr.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Intr\Encoder_Intr.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Pins</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Pins\Encoder_Pins.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Pins\Encoder_Pins.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Pins\Encoder_Pins_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Encoder_Pins\Encoder_Pins_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_BOOT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_BOOT.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_EZI2C.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_EZI2C.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_EZI2C_BOOT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_EZI2C_INT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_EZI2C_PVT.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_PINS.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C\EZI2C_PVT.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_SCB_IRQ</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_SCB_IRQ\EZI2C_SCB_IRQ.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_SCB_IRQ\EZI2C_SCB_IRQ.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_SCBCLK</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_SCBCLK\EZI2C_SCBCLK.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_SCBCLK\EZI2C_SCBCLK.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_scl</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_scl\EZI2C_scl.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_scl\EZI2C_scl.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_scl\EZI2C_scl_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_scl\EZI2C_scl_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_sda</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_sda\EZI2C_sda.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_sda\EZI2C_sda.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_sda\EZI2C_sda_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\EZI2C_sda\EZI2C_sda_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_Enable_Pin</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_Enable_Pin\HB25_Enable_Pin.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_Enable_Pin\HB25_Enable_Pin.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_Enable_Pin\HB25_Enable_Pin_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_Enable_Pin\HB25_Enable_Pin_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM\HB25_PWM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM\HB25_PWM.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM\HB25_PWM_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM_Pin</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM_Pin\HB25_PWM_Pin.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM_Pin\HB25_PWM_Pin.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM_Pin\HB25_PWM_Pin_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HB25_PWM_Pin\HB25_PWM_Pin_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Clock</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Clock\HCSR04_Clock.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Clock\HCSR04_Clock.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Control</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Control\HCSR04_Control.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Control\HCSR04_Control.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Control\HCSR04_Control_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_0</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_0\HCSR04_Echo_0.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_0\HCSR04_Echo_0.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_0\HCSR04_Echo_0_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_0\HCSR04_Echo_0_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_1</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_1\HCSR04_Echo_1.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_1\HCSR04_Echo_1.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_1\HCSR04_Echo_1_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_1\HCSR04_Echo_1_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_2</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_2\HCSR04_Echo_2.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_2\HCSR04_Echo_2.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_2\HCSR04_Echo_2_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_2\HCSR04_Echo_2_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_3</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_3\HCSR04_Echo_3.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_3\HCSR04_Echo_3.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_3\HCSR04_Echo_3_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Echo_3\HCSR04_Echo_3_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timeout_Intr</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timeout_Intr\HCSR04_Timeout_Intr.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timeout_Intr\HCSR04_Timeout_Intr.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timer</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timer\HCSR04_Timer.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timer\HCSR04_Timer.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Timer\HCSR04_Timer_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_0</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_0\HCSR04_Trigger_0.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_0\HCSR04_Trigger_0.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_0\HCSR04_Trigger_0_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_0\HCSR04_Trigger_0_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_1</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_1\HCSR04_Trigger_1.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_1\HCSR04_Trigger_1.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_1\HCSR04_Trigger_1_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_1\HCSR04_Trigger_1_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_2</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_2\HCSR04_Trigger_2.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_2\HCSR04_Trigger_2.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_2\HCSR04_Trigger_2_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_2\HCSR04_Trigger_2_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_3</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_3\HCSR04_Trigger_3.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_3\HCSR04_Trigger_3.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_3\HCSR04_Trigger_3_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\HCSR04_Trigger_3\HCSR04_Trigger_3_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_0</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_0\Pin_InfraredDistance_0.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_0\Pin_InfraredDistance_0.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_0\Pin_InfraredDistance_0_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_0\Pin_InfraredDistance_0_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_1</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_1\Pin_InfraredDistance_1.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_1\Pin_InfraredDistance_1.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_1\Pin_InfraredDistance_1_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_1\Pin_InfraredDistance_1_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_2</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_2\Pin_InfraredDistance_2.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_2\Pin_InfraredDistance_2.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_2\Pin_InfraredDistance_2_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_2\Pin_InfraredDistance_2_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_3</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_3\Pin_InfraredDistance_3.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_3\Pin_InfraredDistance_3.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_3\Pin_InfraredDistance_3_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\Pin_InfraredDistance_3\Pin_InfraredDistance_3_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\PWM_1MHz</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\PWM_1MHz\PWM_1MHz.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\PWM_1MHz\PWM_1MHz.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_BOOT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_BOOT.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_PINS.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_PVT.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART_INT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_SPI_UART_PVT.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_UART.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS\UARTCOMMS_UART_BOOT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_rx</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_rx\UARTCOMMS_rx.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_rx\UARTCOMMS_rx.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_rx\UARTCOMMS_rx_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_rx\UARTCOMMS_rx_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_SCBCLK</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_SCBCLK\UARTCOMMS_SCBCLK.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_SCBCLK\UARTCOMMS_SCBCLK.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_tx</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx_aliases.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\UARTCOMMS_tx\UARTCOMMS_tx_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cyfitter.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cymetadata.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\project.h</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\TopDesign</v>
+<v>arlobot_base\board1\board1.cydwr</v>
+<v>arlobot_base\board1\Header Files</v>
+<v>arlobot_base\board1\Header Files\control.h</v>
+<v>arlobot_base\board1\Header Files\cyapicallbacks.h</v>
+<v>arlobot_base\board1\Header Files\debug.h</v>
+<v>arlobot_base\board1\Header Files\encoder.h</v>
+<v>arlobot_base\board1\Header Files\hwconfig.h</v>
+<v>arlobot_base\board1\Header Files\i2c.h</v>
+<v>arlobot_base\board1\Header Files\infrared.h</v>
+<v>arlobot_base\board1\Header Files\motor.h</v>
+<v>arlobot_base\board1\Header Files\pid.h</v>
+<v>arlobot_base\board1\Header Files\time.h</v>
+<v>arlobot_base\board1\Header Files\ultrasonic.h</v>
+<v>arlobot_base\board1\Header Files\utils.h</v>
+<v>arlobot_base\board1\Source Files</v>
+<v>arlobot_base\board1\Source Files\boardmain.c</v>
+<v>arlobot_base\board1\Source Files\control.c</v>
+<v>arlobot_base\board1\Source Files\debug.c</v>
+<v>arlobot_base\board1\Source Files\encoder.c</v>
+<v>arlobot_base\board1\Source Files\i2c.c</v>
+<v>arlobot_base\board1\Source Files\infrared.c</v>
+<v>arlobot_base\board1\Source Files\main.c</v>
+<v>arlobot_base\board1\Source Files\motor.c</v>
+<v>arlobot_base\board1\Source Files\pid.c</v>
+<v>arlobot_base\board1\Source Files\time.c</v>
+<v>arlobot_base\board1\Source Files\ultrasonic.c</v>
+<v>arlobot_base\board1\Source Files\utils.c</v>
+<v>arlobot_base\board1\Generated_Source</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared_INT.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared\ADC_Infrared_PM.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_intClock</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_intClock\ADC_Infrared_intClock.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_intClock\ADC_Infrared_intClock.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_IRQ</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_IRQ\ADC_Infrared_IRQ.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\ADC_Infrared_IRQ\ADC_Infrared_IRQ.h</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>arlobot_base\board1\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="arlobot_base\board1\TopDesign\TopDesign.cysch">
+<ExpandedNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\TopDesign</v>
+<v>arlobot_base\board1\TopDesign\HB25PWM.cymacro</v>
+<v>arlobot_base\board1\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\TopDesign</v>
+<v>arlobot_base\board1\TopDesign\HB25PWM.cymacro</v>
+<v>arlobot_base\board1\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\CortexM0</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_Infrared.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_Infrared_INT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_Infrared_intClock.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_Infrared_IRQ.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\ADC_Infrared_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\boardmain.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\control.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\CyDMA.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\debug.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\encoder.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Encoder_Intr.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Encoder_Pins.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Encoder_Pins_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HB25_Enable_Pin.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HB25_Enable_Pin_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HB25_PWM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HB25_PWM_Pin.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HB25_PWM_Pin_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HB25_PWM_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Clock.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Control.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Control_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_0.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_0_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_1.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_1_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_2.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_2_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_3.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Echo_3_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Timeout_Intr.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Timer.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Timer_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_0.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_0_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_1.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_1_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_2.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_2_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_3.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\HCSR04_Trigger_3_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\i2c.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\infrared.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\motor.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\pid.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_0.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_0_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_1.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_1_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_2.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_2_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_3.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_InfraredDistance_3_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\PWM_1MHz.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\time.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_BOOT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_rx.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_rx_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SCBCLK.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SPI_UART.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_SPI_UART_INT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_tx.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_tx_PM.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_UART.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\UARTCOMMS_UART_BOOT.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\ultrasonic.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\Listing Files\utils.lst</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\board1.elf</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\board1.hex</v>
+<v>arlobot_base\board1\CortexM0\ARM_GCC_493\Debug\board1.map</v>
+<v>arlobot_base\board1\board1.gpdsc</v>
+<v>arlobot_base\board1\board1.rpt</v>
+<v>arlobot_base\board1\board1_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\PSoC 4 Architecture TRM</v>
+<v>arlobot_base\board1\PSoC 4200M Family Datasheet</v>
+<v>arlobot_base\board1\System Reference Guides</v>
+<v>arlobot_base\board1\System Reference Guides\cy_boot_v5_30</v>
+<v>arlobot_base\board1\System Reference Guides\cy_dmac_v1_10</v>
+<v>arlobot_base\board1\System Reference Guides\cy_lfclk_v1_0</v>
+<v>arlobot_base\board1\ADC_SAR_SEQ_P4_v2_30.pdf</v>
+<v>arlobot_base\board1\Battery_v1_0.pdf</v>
+<v>arlobot_base\board1\cy_bufoe_v1_10.pdf</v>
+<v>arlobot_base\board1\cy_clock_v2_20</v>
+<v>arlobot_base\board1\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>arlobot_base\board1\cy_constant_v1_0.pdf</v>
+<v>arlobot_base\board1\cy_isr_v1_70</v>
+<v>arlobot_base\board1\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>arlobot_base\board1\cy_pins_v2_20</v>
+<v>arlobot_base\board1\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>arlobot_base\board1\CyControlReg_v1_80.pdf</v>
+<v>arlobot_base\board1\cydff_v1_30.pdf</v>
+<v>arlobot_base\board1\Motor_v1_0.pdf</v>
+<v>arlobot_base\board1\mux_v1_10.pdf</v>
+<v>arlobot_base\board1\Relay_v1_0.pdf</v>
+<v>arlobot_base\board1\SCB_P4_v3_10</v>
+<v>arlobot_base\board1\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
+<v>arlobot_base\board1\TCPWM_P4_v2_10</v>
+<v>arlobot_base\board1\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>arlobot_base</v>
+<v>arlobot_base\board1</v>
+<v>arlobot_base\board1\PSoC 4 Architecture TRM</v>
+<v>arlobot_base\board1\PSoC 4200M Family Datasheet</v>
+<v>arlobot_base\board1\System Reference Guides</v>
+<v>arlobot_base\board1\System Reference Guides\cy_boot_v5_30</v>
+<v>arlobot_base\board1\System Reference Guides\cy_dmac_v1_10</v>
+<v>arlobot_base\board1\System Reference Guides\cy_lfclk_v1_0</v>
+<v>arlobot_base\board1\ADC_SAR_SEQ_P4_v2_30.pdf</v>
+<v>arlobot_base\board1\Battery_v1_0.pdf</v>
+<v>arlobot_base\board1\cy_bufoe_v1_10.pdf</v>
+<v>arlobot_base\board1\cy_clock_v2_20</v>
+<v>arlobot_base\board1\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>arlobot_base\board1\cy_constant_v1_0.pdf</v>
+<v>arlobot_base\board1\cy_isr_v1_70</v>
+<v>arlobot_base\board1\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>arlobot_base\board1\cy_pins_v2_20</v>
+<v>arlobot_base\board1\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>arlobot_base\board1\CyControlReg_v1_80.pdf</v>
+<v>arlobot_base\board1\cydff_v1_30.pdf</v>
+<v>arlobot_base\board1\Motor_v1_0.pdf</v>
+<v>arlobot_base\board1\mux_v1_10.pdf</v>
+<v>arlobot_base\board1\Relay_v1_0.pdf</v>
+<v>arlobot_base\board1\SCB_P4_v3_10</v>
+<v>arlobot_base\board1\SCB_P4_v3_10\SCB_P4_v3_10.pdf</v>
+<v>arlobot_base\board1\TCPWM_P4_v2_10</v>
+<v>arlobot_base\board1\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\board1.cydsn\TopDesign\TopDesign.cysch" />
+<name v="..\source\boardmain.c" />
+</OpenDocs>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

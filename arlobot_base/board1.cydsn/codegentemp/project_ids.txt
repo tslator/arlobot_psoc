@@ -1,0 +1,5 @@
+D:\projects\ArloBot\arlobot_psoc\arlobot_base\board1.cydsn\board1.cyprj|3f8f2553-4337-4b63-b865-23ed84c4fa93
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|2a7fcc7d-b066-4e1e-a9c1-8f863d1085c1
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2a9e3777-49df-4253-b32f-a64ef743321e
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|bb682e3b-58c6-4162-a7f4-5937ba39941d
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|9927ce91-058c-465c-a873-1ac940b140ae
