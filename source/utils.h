@@ -13,7 +13,12 @@
 #define min(a, b) (a < b ? a : b)
 #define max(a, b) (a > b ? a : b)
 #define constrain(a, b, c) (min(max(a, b), c))
-#define scale(x, y, z) (((int32)x * (int32)y) / (int32)z)
+// Scale X -> Y
+//    X          Y
+//  -----    = -----  => y = x * y range / x range
+//  x range    y range
+#define scale_integer(x, x_range, y_range) ( (int32) (x * y_range) / (int32) x_range )
+#define scale_float(x, x_range, y_range) ( (float) (x * y_range) / (float) x_range )
 
 typedef struct _moving_average_tag
 {

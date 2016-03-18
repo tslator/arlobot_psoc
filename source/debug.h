@@ -14,18 +14,18 @@ char formatted_string[256];
 #define EMR     0x03
 #define CRIT    0x01
 
-#define COMMS_DEBUG_LEVEL ERR
+#define DEBUG_LEVEL ERR
 
-#define COMMS_WHERESTR "[FILE : %s, FUNC : %s, LINE : %d]: "
-#define COMMS_WHEREARG __FILE__,__func__,__LINE__
-#define COMMS_INSIDE_DEBUG(...)  do { \
+#define WHERESTR "[FILE : %s, FUNC : %s, LINE : %d]: "
+#define WHEREARG __FILE__,__func__,__LINE__
+#define INSIDE_DEBUG(...)  do { \
                                 snprintf(formatted_string, sizeof(formatted_string), __VA_ARGS__); \
                                 UARTCOMMS_UartPutString(formatted_string); \
                            } while (0)
                                 
 #ifdef COMMS_DEBUG_ENABLED
-#define COMMS_DEBUG_PRINT(X, _fmt, ...)  if((COMMS_DEBUG_LEVEL & X) == X) \
-                                      COMMS_INSIDE_DEBUG(COMMS_WHERESTR _fmt, COMMS_WHEREARG,__VA_ARGS__)
+#define COMMS_DEBUG_PRINT(X, _fmt, ...)  if((DEBUG_LEVEL & X) == X) \
+                                      INSIDE_DEBUG(WHERESTR _fmt, WHEREARG,__VA_ARGS__)
 #else
 #define COMMS_DEBUG_PRINT(X, _fmt, ...)
 #endif

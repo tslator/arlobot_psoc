@@ -17,7 +17,7 @@
 
 void Motor_Init();
 void Motor_Start();
-void Motor_SetOutput(int8 value);
+void Motor_SetOutput(int16 value);
 void Motor_Stop();
 void Motor_Test();
 

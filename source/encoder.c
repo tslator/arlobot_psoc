@@ -21,10 +21,9 @@
 #define SAMPLE_PERIOD (1000/SAMPLE_RATE) /* milliseconds */
 #define MILLIS_PER_SECOND (1000)
 
-#define MILLIMETERS_PER_REVOLUTION (479) /* millimeters */
-#define COUNTS_PER_REVOLUTION (72)  /* counts */
+#define MILLIMETERS_PER_REVOLUTION (479.0) /* millimeters */
+#define COUNTS_PER_REVOLUTION (36.0 * 4)  /* 36 teeth per revolution (4x encoder) */
 #define MILLIMETERS_PER_COUNT (MILLIMETERS_PER_REVOLUTION/COUNTS_PER_REVOLUTION) /* millimeters */
-#define MILLIMETERS_PER_SECOND (758) /* millimeters */
 
 /* Aliases for the encoder pins */
 #define Pins_Encoder_A_Read() (Encoder_Pins_Read() & 0x01)
@@ -37,6 +36,7 @@ static volatile int32_t enc_count;
 static volatile int32 last_enc_count;
 static volatile int16 enc_velocity;
 static volatile uint32 last_velocity_time;
+
 
 // Encoder Lookup Table
 //      sequence: 00 <-> 01 <-> 11 <-> 10 <-> 00 <-> 01 <-> 10 <-> 11 <-> ...
@@ -69,7 +69,7 @@ static int32 CalcCount(uint8 a, uint8 b)
     old_ab <<= 2;
     old_ab |= ( (a << 1) + b ) & 0x03;
     
-    return enc_states[( old_ab & 0x0f )];
+    return DIRECTION * enc_states[( old_ab & 0x0f )];
 }
 
 CY_ISR( Encoder_Interrupt_Handler )
@@ -115,7 +115,11 @@ int16 Encoder_GetVelocity()
 
 int32 Encoder_GetCount()
 {
-    return enc_count;
+    int32 value;
+    Encoder_Intr_Disable();
+    value = enc_count;
+    Encoder_Intr_Enable();
+    return value;
 }
 
 void Encoder_Reset()
@@ -132,14 +136,20 @@ void Encoder_Update()
 {
     int16 counts_per_second;
     
-    if (DELTA_TIME(millis(), last_velocity_time, SAMPLE_PERIOD))
+    uint32 delta_time = millis() - last_velocity_time;
+    
+    //if (DELTA_TIME(millis(), last_velocity_time, SAMPLE_PERIOD))
+    if (delta_time > SAMPLE_PERIOD)
     {           
         last_velocity_time = millis();
         
-        int32 delta_count = enc_count - last_enc_count;
-        counts_per_second = delta_count * MILLIS_PER_SECOND / SAMPLE_PERIOD;        
-        enc_velocity = MILLIMETERS_PER_COUNT * counts_per_second;
-        last_enc_count = enc_count;        
+        int32 delta_count = Encoder_GetCount() - last_enc_count;
+        //counts_per_second = delta_count * MILLIS_PER_SECOND / SAMPLE_PERIOD;        
+        counts_per_second = delta_count * SAMPLE_RATE;        
+        enc_velocity = MILLIMETERS_PER_COUNT * (float) counts_per_second;
+        last_enc_count = enc_count;           
+        I2c_WriteCount(enc_count);
+        I2c_WriteVelocity(enc_velocity);
     }
 }
 

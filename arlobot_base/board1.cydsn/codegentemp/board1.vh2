@@ -2,7 +2,7 @@
 --	Conversion of board1.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Mar 10 11:38:16 2016
+--	Thu Mar 10 18:06:19 2016
 --
 
 USE cypress.cypress.all;

@@ -1,5 +1,7 @@
-D:\projects\ArloBot\arlobot_psoc\arlobot_base\board1.cydsn\board1.cyprj|3f8f2553-4337-4b63-b865-23ed84c4fa93
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|2a7fcc7d-b066-4e1e-a9c1-8f863d1085c1
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2a9e3777-49df-4253-b32f-a64ef743321e
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|bb682e3b-58c6-4162-a7f4-5937ba39941d
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|9927ce91-058c-465c-a873-1ac940b140ae
+D:\projects\ArloBot\arlobot_psoc\arlobot_base\board1.cydsn\board1.cyprj|faac90a0-5340-4f1e-b97f-4b875b06f6f5
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|8ae612a4-8e3e-4a21-a446-b34ffc942f52
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|5aaf6f59-896b-4dbb-ab39-c1d5855d27cb
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4130f6af-2f0e-48b1-a4c8-ec4850365d37
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|7e12ab75-d5de-45c7-bd8b-01c095e44ee9
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|d26be67d-9d7b-4fd7-a577-0cd5b16d480b
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|9762db0b-3bc4-4af1-8708-e83286a96250

@@ -21,10 +21,10 @@
 
 /* The Sharp IR sensors have a range of 10 to 80 cm.  Working backward, this limits the ADC values as follows:
 
-ADC    Voltage        Pow	       cm	        mm
-327	 0.399169922  2.875203044  80.10315682  801.0315682
-350	 0.427246094  2.659011307  74.08005503  740.8005503
-375	 0.457763672  2.456192932  68.42953508  684.2953508
+ADC    Voltage        Pow          cm           mm
+327  0.399169922  2.875203044  80.10315682  801.0315682
+350  0.427246094  2.659011307  74.08005503  740.8005503
+375  0.457763672  2.456192932  68.42953508  684.2953508
 ...
 1950 2.380371094  0.368857512  10.27637027  102.7637027
 1995 2.435302734  0.359305694  10.01025665  100.1025665
@@ -65,10 +65,20 @@ void Infrared_Measure()
     uint16 result;
     float voltage;
     float distance;
+    uint32 adc_result;
     
     ADC_Infrared_StartConvert();
-    ADC_Infrared_IsEndConversion(ADC_Infrared_WAIT_FOR_RESULT);
-
+    /* The way this should work is that the call will block until all channels are read which shouldn't take very long
+       Running without any connected hardware causes this routine to hang forever, so maybe its because there is no
+       hardware or there may be something else.  For now, using RETURN_STATUS -- revisit when hardware is connected.
+     */
+    //ADC_Infrared_IsEndConversion(ADC_Infrared_WAIT_FOR_RESULT);
+    adc_result = ADC_Infrared_IsEndConversion(ADC_Infrared_RETURN_STATUS);
+    if (!adc_result)
+    {
+        return;
+    }
+    
     if (millis() - last_time > SAMPLE_PERIOD)
     {
         last_time = millis();
@@ -78,7 +88,8 @@ void Infrared_Measure()
             result = constrain(result, ADC_MIN_VALUE, ADC_MAX_VALUE);
             voltage = (result * ADC_FULL_RANGE) / ADC_RESOLUTION;
             distance = SHARP_IR_SENSOR_INTERPOLATION_CONST_1 * pow(voltage, SHARP_IR_SENSOR_INTERPOLATION_CONST_2);
-            I2c_WriteInfraredDistance(ii, distance);
+            //COMMS_DEBUG_PRINT(0, "ir distance %f\n\r", distance);
+            //I2c_WriteInfraredDistance(ii, distance);
         }
     }
 }

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
   28:..\..\source/motor.c **** 
   29:..\..\source/motor.c **** #define PWM_PADDING (200)
   30:..\..\source/motor.c **** 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 2
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 2
 
 
   31:..\..\source/motor.c **** #define REVERSE_PWM_COUNT (MAX_PWM_COUNT - PWM_PADDING)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
   64              	.L4:
   65              	.LVL5:
   49:..\..\source/motor.c ****     
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 3
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 3
 
 
   50:..\..\source/motor.c ****     return (uint16) constrain(STOP_PWM_COUNT + result, MIN_PWM_COUNT, MAX_PWM_COUNT);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
   52:..\..\source/motor.c **** 
   53:..\..\source/motor.c **** /*
   54:..\..\source/motor.c ****     Recommendation by Parallax:
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 4
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 4
 
 
   55:..\..\source/motor.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
   85:..\..\source/motor.c **** 
   86:..\..\source/motor.c **** void Motor_Start()
   87:..\..\source/motor.c **** {
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 5
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 5
 
 
  142              		.loc 1 87 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  181 0006 FFF7FEFF 		bl	HB25_PWM_WriteCompare
  182              	.LVL18:
  103:..\..\source/motor.c **** }
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 6
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 6
 
 
  183              		.loc 1 103 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  224              		.loc 1 116 0
  225              		.cfi_startproc
  117:..\..\source/motor.c **** }
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 7
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 7
 
 
  226              		.loc 1 117 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  280 0057 08       		.byte	0x8
  281 0058 07       		.byte	0x7
  282 0059 D2000000 		.4byte	.LASF7
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 8
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 8
 
 
  283 005d 03       		.uleb128 0x3
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  337 00ce 00000000 		.4byte	.LFB36
  338 00d2 5C000000 		.4byte	.LFE36-.LFB36
  339 00d6 01       		.uleb128 0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 9
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 9
 
 
  340 00d7 9C       		.byte	0x9c
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  394 0149 0C000000 		.4byte	.LVL14
  395 014d E8010000 		.4byte	0x1e8
  396 0151 00       		.byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 10
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 10
 
 
  397 0152 0D       		.uleb128 0xd
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  451 01cd 00000000 		.4byte	.LFB41
  452 01d1 02000000 		.4byte	.LFE41-.LFB41
  453 01d5 01       		.uleb128 0x1
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 11
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 11
 
 
  454 01d6 9C       		.byte	0x9c
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  508 001a 03       		.uleb128 0x3
  509 001b 0E       		.uleb128 0xe
  510 001c 00       		.byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 12
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 12
 
 
  511 001d 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  565 0054 0E       		.uleb128 0xe
  566 0055 3A       		.uleb128 0x3a
  567 0056 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 13
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 13
 
 
  568 0057 3B       		.uleb128 0x3b
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  622 0090 00       		.byte	0
  623 0091 0A       		.uleb128 0xa
  624 0092 8A8201   		.uleb128 0x410a
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 14
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 14
 
 
  625 0095 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  679 00d1 00       		.byte	0
  680 00d2 3F       		.uleb128 0x3f
  681 00d3 19       		.uleb128 0x19
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 15
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 15
 
 
  682 00d4 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  736 010b 19       		.uleb128 0x19
  737 010c 3C       		.uleb128 0x3c
  738 010d 19       		.uleb128 0x19
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 16
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 16
 
 
  739 010e 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  793 004c 30       		.byte	0x30
  794 004d 9F       		.byte	0x9f
  795 004e 26000000 		.4byte	.LVL5
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 17
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 17
 
 
  796 0052 3E000000 		.4byte	.LVL7
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  850 00d8 50       		.byte	0x50
  851 00d9 00000000 		.4byte	0
  852 00dd 00000000 		.4byte	0
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 18
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 18
 
 
  853              		.section	.debug_aranges,"",%progbits
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  898              	.LASF20:
  899 0018 76616C75 		.ascii	"value\000"
  899      6500
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 19
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 19
 
 
  900              	.LASF3:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  925      333200
  926              	.LASF23:
  927 00ba 4D6F746F 		.ascii	"Motor_Stop\000"
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 20
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 20
 
 
  927      725F5374 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 1
  948              	.LASF30:
  949 01b9 443A5C70 		.ascii	"D:\\projects\\ArloBot\\arlobot_psoc\\arlobot_base\\"
  949      726F6A65 
-ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccDx5WJk.s 			page 21
+ARM GAS  C:\Users\Tim\AppData\Local\Temp\ccAmOocP.s 			page 21
 
 
  949      6374735C 

@@ -12,6 +12,8 @@
 
 #include "motor.h"
 #include "utils.h"
+#include "debug.h"
+#include "hwconfig.h"
 
 /* Add a link to the HB25 data sheet
    Ref:
@@ -32,23 +34,14 @@
 #define STOP_PWM_COUNT (CNTR_PWM_COUNT)
 #define FORWARD_PWM_COUNT (MIN_PWM_COUNT + PWM_PADDING)
 
-#define MAX_ABSOLUTE_VALUE (100)
-#define MIN_VALUE (-MAX_ABSOLUTE_VALUE)
-#define MAX_VALUE (+MAX_ABSOLUTE_VALUE)
+#define MOTOR_DRIVE_ABSOLUTE_VALUE (100)
+#define MIN_MOTOR_DRIVE (-MOTOR_DRIVE_ABSOLUTE_VALUE)
+#define MAX_MOTOR_DRIVE (+MOTOR_DRIVE_ABSOLUTE_VALUE)
 #define MID_VALUE (0)
 
-#define COUNT_RESOLUTION ((REVERSE_PWM_COUNT - FORWARD_PWM_COUNT)/(2 * MAX_ABSOLUTE_VALUE))
-
-static uint16 CalculateCompare(int8 value)
-{
-    
-    int16 result = 0;
-    
-    value = constrain(value, MIN_VALUE, MAX_VALUE);
-    result = (value == 0) ? 0 : (-value * COUNT_RESOLUTION);
-    
-    return (uint16) constrain(STOP_PWM_COUNT + result, MIN_PWM_COUNT, MAX_PWM_COUNT);
-}
+#define MOTOR_RANGE (2 * MOTOR_DRIVE_ABSOLUTE_VALUE)
+#define PWM_RANGE   (REVERSE_PWM_COUNT - FORWARD_PWM_COUNT)
+//#define COUNT_RESOLUTION ((REVERSE_PWM_COUNT - FORWARD_PWM_COUNT)/MOTOR_RANGE)
 
 /*
     Recommendation by Parallax:
@@ -94,11 +87,18 @@ void Motor_Start()
     HB25_PWM_Start();
 }
 
-void Motor_SetOutput(int8 value)
+void Motor_SetOutput(int16 value)
+/* Incoming value units are millimeter per second.  It must be scaled to PWM range
+ */
 {
-    uint16 pwm_compare = 0;
+    uint16 pwm_compare;
+    int32 scaled_value;
     
-    pwm_compare = CalculateCompare(value);
+    scaled_value = DIRECTION * scale_integer(value, SPEED_RANGE, PWM_RANGE);    
+    pwm_compare = constrain((uint16) (STOP_PWM_COUNT + scaled_value), (uint16) MIN_PWM_COUNT, (uint16) MAX_PWM_COUNT);
+    
+    //COMMS_DEBUG_PRINT(0, "v: %d, s: %ld, p: %d\n\r", value, scaled_value, pwm_compare);
+    
     HB25_PWM_WriteCompare(pwm_compare);
 }
 
@@ -108,8 +108,8 @@ void Motor_Stop()
         - Stop the PWM
         - Disable power to the HB-25
      */
-    HB25_PWM_Stop();
-    HB25_Enable_Pin_Write(HB25_DISABLE);
+    //HB25_PWM_Stop();
+    //HB25_Enable_Pin_Write(HB25_DISABLE);
 }
 
 void Motor_Test()

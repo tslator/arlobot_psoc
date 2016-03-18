@@ -91,11 +91,7 @@ void I2c_Init()
 
 void I2c_Start()
 {
-#ifdef BOARD_1
-    EZI2C_EzI2CSetAddress1(BOARD_1_I2C_ADDRESS);
-#else /* BOARD_2 */
-    EZI2C_EzI2CSetAddress1(BOARD_2_I2C_ADDRESS);
-#endif
+    EZI2C_EzI2CSetAddress1(I2C_ADDRESS);
     EZI2C_Start();
     
     EZI2C_EzI2CSetBuffer1(sizeof(i2c_buf), I2C_READ_WRITE_SIZE, i2c_buf);
@@ -103,7 +99,7 @@ void I2c_Start()
 
 uint16 I2c_ReadControl()
 {
-    return (uint16) (i2c_buf[CONTROL_BASE] << 8) | i2c_buf[CONTROL_BASE + 1];
+    return (uint16) (i2c_buf[CONTROL_BASE + 1] << 8) | i2c_buf[CONTROL_BASE];
 }
 
 void I2c_WriteStatus(uint16 mask)
@@ -114,12 +110,12 @@ void I2c_WriteStatus(uint16 mask)
 
 void I2c_ReadVelocity(int16* velocity_percent)
 {
-    *velocity_percent = (int16) (i2c_buf[COMMANDED_VELOCITY_BASE] << 8) | i2c_buf[COMMANDED_VELOCITY_BASE + 1];
+    *velocity_percent = (int16) (i2c_buf[COMMANDED_VELOCITY_BASE + 1] << 8) | i2c_buf[COMMANDED_VELOCITY_BASE];
 }
 
 void I2c_ReadAcceleration(int16* accel_percent)
 {
-    *accel_percent = (int16) (i2c_buf[COMMANDED_ACCELERATION_BASE] << 8) | i2c_buf[COMMANDED_ACCELERATION_BASE + 1];
+    *accel_percent = (int16) (i2c_buf[COMMANDED_ACCELERATION_BASE + 1] << 8) | i2c_buf[COMMANDED_ACCELERATION_BASE];
 }
 
 void I2c_WriteCount(uint32 count)
@@ -132,8 +128,8 @@ void I2c_WriteCount(uint32 count)
 
 void I2c_WriteVelocity(int16 velocity_percent)
 {
-    i2c_buf[MEASURED_VELOCITY_BASE] = (uint8) (velocity_percent >> 8) & 0x00ff;
-    i2c_buf[MEASURED_VELOCITY_BASE + 1] = (uint8) velocity_percent & 0x00ff;
+    i2c_buf[MEASURED_VELOCITY_BASE] = (uint8) velocity_percent & 0x00ff;
+    i2c_buf[MEASURED_VELOCITY_BASE + 1] = (uint8) (velocity_percent >> 8) & 0x00ff;
 }
 
 void I2c_WriteUltrasonicDistance(uint8 offset, uint16 distance)

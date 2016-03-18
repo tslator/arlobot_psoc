@@ -11956,9 +11956,9 @@ ARM GAS  .\Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  1654              	.set CYDEV_STACK_SIZE, 0x0800
  1655              	.set CYDEV_USE_BUNDLED_CMSIS, 1
  1656              	.set CYDEV_VARIABLE_VDDA, 1
- 1657              	.set CYDEV_VDDA_MV, 3300
- 1658              	.set CYDEV_VDDD_MV, 3300
- 1659              	.set CYDEV_VDDIO_MV, 3300
+ 1657              	.set CYDEV_VDDA_MV, 5000
+ 1658              	.set CYDEV_VDDD_MV, 5000
+ 1659              	.set CYDEV_VDDIO_MV, 5000
  1660              	.set CYDEV_WDT_GENERATE_ISR, 1
  1661              	.set CYIPBLOCK_m0s8can_VERSION, 1
  1662              	.set CYIPBLOCK_m0s8cpussv2_VERSION, 1

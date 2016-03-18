@@ -7,7 +7,7 @@ void Debug_Init()
 
 void Debug_Start()
 {
-#ifdef DEBUG_ENABLED
+#ifdef COMMS_DEBUG_ENABLED
     UARTCOMMS_Start();
 #endif
 }

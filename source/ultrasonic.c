@@ -143,7 +143,7 @@ void Ultrasonic_Measure()
             if (millis() - last_print_time > 1000)
             {
                 last_print_time = millis();
-                COMMS_DEBUG_PRINT(0, "N: %d, X: %d, C: %ld\n\r", sensors[ii].min_pulse, sensors[ii].max_pulse, sensors[ii].average);
+                //COMMS_DEBUG_PRINT(0, "N: %d, X: %d, C: %ld\n\r", sensors[ii].min_pulse, sensors[ii].max_pulse, sensors[ii].average);
             }
             
         }

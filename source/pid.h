@@ -37,7 +37,9 @@ void PID_Start();
  Parameters: None
  Return: None
  ------------------------------------------------------------------------------------------------*/
-void PID_Update(int16 velocity);
+void PID_Update();
+
+void PID_SetOutput();
 
 #endif
 
