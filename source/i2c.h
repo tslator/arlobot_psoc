@@ -14,6 +14,8 @@
 #define I2C_H
 
 #include <project.h>
+    
+#define STATUS_ONOFF_DETECT_BIT (0x02)
 
 void I2c_Init();
 void I2c_Start();

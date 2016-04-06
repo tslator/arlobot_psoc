@@ -17,7 +17,7 @@
 #include "time.h"
 #include "debug.h"
 
-#define SAMPLE_RATE (20) /* Hz */
+#define SAMPLE_RATE (10) /* Hz */
 #define SAMPLE_PERIOD (1000/SAMPLE_RATE) /* milliseconds */
 #define MILLIS_PER_SECOND (1000)
 

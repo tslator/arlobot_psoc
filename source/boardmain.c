@@ -24,9 +24,17 @@
 #define MAX_MILLIMETERS_PER_SECOND (1000)
 #define MIN_MILLIMETERS_PER_SECOND (-1000)
 
+CY_ISR(OnOffInterruptHandler)
+{
+    OnOff_Detect_Pin_ClearInterrupt();
+    
+    I2c_WriteStatus(STATUS_ONOFF_DETECT_BIT);
+}
 
-int Board_Main()
+int main()
 {       
+    CyGlobalIntEnable;      /* Enable global interrupts */
+    
     /* Start this right away so that we debug as soon as possible */
     Debug_Init();
     Debug_Start();
@@ -44,6 +52,8 @@ int Board_Main()
     Motor_Start();
     
     Control_Start();
+    
+    OnOff_Intr_StartEx(OnOffInterruptHandler);
 
     for(;;)
     {

@@ -108,8 +108,8 @@ void Motor_Stop()
         - Stop the PWM
         - Disable power to the HB-25
      */
-    //HB25_PWM_Stop();
-    //HB25_Enable_Pin_Write(HB25_DISABLE);
+    HB25_PWM_Stop();
+    HB25_Enable_Pin_Write(HB25_DISABLE);
 }
 
 void Motor_Test()

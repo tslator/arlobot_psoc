@@ -27,7 +27,8 @@
                                                             millimeters/second^2
     ------------------------------ Read/Write Boundary --------------------------------------------
       06           2         [device status]                contains bits that represent the status of the Psoc device
-                                                               - HB25 Motor Controller Initialize b0000000000000001
+                                                               - HB25 Motor Controller Initialize - 0x0001
+                                                               - M4-ATX Power Off                 - 0x0002
       08           4         [measured count]               measured count is the encoder count
       12           2         [measured velocity]            measured velocity is the measured speed 
                                                             of the wheel using the encoder count
